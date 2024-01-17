@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory | Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/style.css">
+</head>
+<body>
+    <div class="splash">
+        <button id="enter">Enter Game</button>
+    </div>
+    <div class="head-board">
+        <div class="name">Your name: <span></span></div>
+        <div class="timer">
+            <div class="minutes"><span>01</span></div>:
+            <div class="seconds"><span>09</span></div>
+        </div>
+        <div class="tries">Wrong tries: <span>0</span></div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="block" data-tech="html">
+            <div class="face front">
+                <div class="icon-html5"></div>
+            </div>
+            <div class="face back">
+                
+            </div>
+        </div>
+        <div class="block" data-tech="html">
+            <div class="face front">
+                <div class="icon-html5"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="css">
+            <div class="face front">
+                <div class="icon-css3"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="css">
+            <div class="face front">
+                <div class="icon-css3"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="js">
+            <div class="face front">
+                <div class="icon-javascript"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="js">
+            <div class="face front">
+                <div class="icon-javascript"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="node">
+            <div class="face front">
+                <div class="icon-node-dot-js"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="node">
+            <div class="face front">
+                <div class="icon-node-dot-js"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="sass">
+            <div class="face front">
+                <div class="icon-sass"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="sass">
+            <div class="face front">
+                <div class="icon-sass"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="laravel">
+            <div class="face front">
+                <div class="icon-laravel"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="laravel">
+            <div class="face front">
+                <div class="icon-laravel"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="php">
+            <div class="face front">
+                <div class="icon-php"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="php">
+            <div class="face front">
+                <div class="icon-php"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="github">
+            <div class="face front">
+                <div class="icon-github"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="github">
+            <div class="face front">
+                <div class="icon-github"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="vscode">
+            <div class="face front">
+                <div class="icon-visualstudiocode"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="vscode">
+            <div class="face front">
+                <div class="icon-visualstudiocode"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+        <div class="block" data-tech="python">
+            <div class="face front">
+                <div class="icon-python"></div>
+            </div>
+            <div class="face back">
+                
+            </div>
+        </div>
+        <div class="block" data-tech="python">
+            <div class="face front">
+                <div class="icon-python"></div>
+            </div>
+            <div class="face back">
+
+            </div>
+        </div>
+    </div>
+    <p id="finish" class="finish">game over..</p>
+    <div class="sounds">
+        <audio id="success" preload="auto" src="./sounds/success.wav"></audio>
+        <audio id="fail" preload="auto" src="./sounds/fail.mp3"></audio>
+        <audio id="gamePlay" preload="auto" src="./sounds/playground.mp3"></audio>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 20px">Count</th>
+                <th>Name</th>
+                <th>Tries</th>
+            </tr>
+        </thead>
+        <tbody id="tBody">
+            <tr>
+                <td>1</td>
+                <td>jack</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
